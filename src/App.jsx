@@ -336,16 +336,12 @@ function App() {
 
   // Simulate loading completion after a delay (remove this in production)
   useEffect(() => {
-    const timer = setTimeout(() => {
+    
       setLoaded(true);
-    }, 3000); // Adjust the delay as needed
-
-    return () => {
-      clearTimeout(timer); // Clear the timer when the component unmounts
-    };
+   
   }, []);
 
-  useEffect(() => {}, []);
+
 
   // const volume = 0.5
   return (
