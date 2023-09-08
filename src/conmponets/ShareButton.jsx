@@ -26,7 +26,7 @@ function ShareButton() {
       case 'instagram':
         // Instagram sharing is limited to the mobile app, so you can't share directly via a link.
         // You can provide a link to your Instagram profile instead.
-        finalShareUrl = 'https://www.instagram.com/yourprofile/';
+        finalShareUrl = 'https://www.instagram.com/ianshur/';
         break;
       case 'linkedin':
         finalShareUrl = `https://www.linkedin.com/shareArticle?url=${encodeURIComponent(
