@@ -10,10 +10,10 @@ function ShareButton() {
 
   const handleShareOptionClick = (platform) => {
     // Define the URL you want to share
-    const shareUrl = 'https://example.com'; // Replace with your website URL
+    const shareUrl = 'https://rocks-papers-and-scissors.vercel.app/'; // Replace with your website URL
 
     // Define the share text
-    const shareText = 'Check out this website!';
+    const shareText = 'Check out this webgame of rock paper and scissors by Masaba Ian Samuel!';
 
     // Create the share URL based on the selected platform
     let finalShareUrl;
