@@ -333,13 +333,29 @@ function App() {
   };
 
   const [loaded, setLoaded] = useState(false);
-  
+
   // Simulate loading completion after a delay (remove this in production)
   useEffect(() => {
-      setLoaded(true)
+    const timer = setTimeout(() => {
+      setLoaded(true);
+    }, 3000); // Adjust the delay as needed
+
+    return () => {
+      clearTimeout(timer); // Clear the timer when the component unmounts
+    };
   }, []);
 
-
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) {
+      window.location.reload(true);
+      
+      console.log('Page is not visible');
+    } else {
+      
+      console.log('Page is visible again');
+    }
+  });
+  
 
   // const volume = 0.5
   return (
