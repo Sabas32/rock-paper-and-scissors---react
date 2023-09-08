@@ -17,6 +17,7 @@ import bgMosic from "./audio/chill-drum-loop-6887.mp3";
 import bgMosiconus from "./audio/game-music-loop-7-145285.mp3";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Preloader from "./conmponets/preloader";
+import ShareButton from "./conmponets/ShareButton";
 
 function App() {
 
@@ -374,6 +375,7 @@ function App() {
                   }
                   // style={siteLoading?{dispaly:'none'}:{visibility:'block'}}
                 >
+                  
                   <h1>Rock Paper Scissors</h1>
 
                   <div className="optSelect">
@@ -497,7 +499,6 @@ function App() {
                     <header>
                       <div className="head">
                         <p>Roak Paper Scissors</p>
-
                         <div className="score">
                           <p>score</p>
                           <p>{score}</p>
@@ -625,6 +626,7 @@ function App() {
                     <div className="rules" onClick={handleShowRules}>
                       rules
                     </div>
+                    
                     <div className="rules restScore" onClick={restScore}>
                       Rest Score
                     </div>
@@ -893,6 +895,7 @@ function App() {
                     <div className="rules" onClick={handleShowRules}>
                       rules
                     </div>
+                    
                     <div className="rules restScore" onClick={restScore}>
                       Rest Score
                     </div>

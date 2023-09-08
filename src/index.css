@@ -583,13 +583,11 @@ body {
   filter: contrast(1);
 }
 .backHome svg {
-  width: 2em;
-
   width: 1.5em;
   position: absolute;
-  margin: 0.5em;
+  margin: 0.1em;
   right: 0;
-  margin-top: .1em;
+  margin-top: 0.1em;
 }
 
 
@@ -607,6 +605,11 @@ body {
   transform: translate(0%);
   border-radius: 0;
   padding: .1em 1em;
+}
+
+
+.shareBtnH{
+  position: absolute;
 }
 
 
@@ -655,6 +658,11 @@ body {
 .pl__line5 {
 	animation-name: line5;
 }
+
+
+
+
+
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
