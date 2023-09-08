@@ -333,12 +333,10 @@ function App() {
   };
 
   const [loaded, setLoaded] = useState(false);
-
+  
   // Simulate loading completion after a delay (remove this in production)
   useEffect(() => {
-    
-      setLoaded(true);
-   
+      setLoaded(true)
   }, []);
 
 
