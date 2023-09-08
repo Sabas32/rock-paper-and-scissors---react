@@ -588,6 +588,7 @@ body {
   margin: 0.1em;
   right: 0;
   margin-top: 0.1em;
+  z-index: 10;
 }
 
 

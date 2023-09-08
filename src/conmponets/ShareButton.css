@@ -3,7 +3,7 @@
     position: absolute;
     display: inline-block;
     /* left: 85%; */
-    top: 75%;
+    top: 70%;
     transform: rotate(-90deg) translateY(-100px);
     right: 0;
 }

@@ -626,7 +626,7 @@ function App() {
                     <div className="rules" onClick={handleShowRules}>
                       rules
                     </div>
-                    
+                    <ShareButton />
                     <div className="rules restScore" onClick={restScore}>
                       Rest Score
                     </div>
@@ -895,7 +895,7 @@ function App() {
                     <div className="rules" onClick={handleShowRules}>
                       rules
                     </div>
-                    
+                    <ShareButton />
                     <div className="rules restScore" onClick={restScore}>
                       Rest Score
                     </div>
